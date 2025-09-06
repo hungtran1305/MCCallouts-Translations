@@ -1,0 +1,27 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Tìm kiếm bằng Trực thăng cho Xe Bị Trộm</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Hóa thân thành phi công!</CALLOUTADVISORY>
+    <TASK>Một chiếc xe bị trộm đã được camera CCTV phát hiện trong khu vực. Gặp sĩ quan tại điểm hẹn.</TASK>
+    <COP>
+        <DIALOGUE>~b~Sĩ quan:~s~ Xin chào, Phi công! Rất vui khi có bạn cùng chúng tôi.</DIALOGUE>
+        <DIALOGUE>~b~Sĩ quan:~s~ Chúng tôi đang tìm một chiếc xe bị trộm mà lần cuối được nhìn thấy ở khu vực này.</DIALOGUE>
+        <DIALOGUE>~b~Sĩ quan:~s~ Chúng tôi có thông tin về mẫu xe và màu sắc, nhưng có một vài khả năng trùng khớp.</DIALOGUE>
+        <DIALOGUE>~b~Sĩ quan:~s~ Vui lòng bay vòng quanh khu vực nơi chiếc xe được nhìn thấy lần cuối và quét các xe gần đó bằng máy quét trực thăng.</DIALOGUE>
+        <DIALOGUE>~b~Sĩ quan:~s~ Chúc may mắn!</DIALOGUE>
+    </COP>
+    <VEHICLEINFO>
+        <TEXT>Xe bị truy nã:~n~</TEXT>
+        <TEXT>~b~Mẫu xe:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~Màu:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~Lần cuối thấy ở~s~ {Zone}</TEXT>
+    </VEHICLEINFO>
+    <SEARCH>
+        <TEXT>~r~Nghi phạm đã được quét và tìm thấy! Theo dõi hắn cho đến khi dừng lại hoặc ~o~thực hiện dừng xe!</TEXT>
+        <TEXT>Đây không phải chiếc xe chúng ta đang tìm.</TEXT>
+        <TEXT>Nghi phạm đã đậu xe, giờ bắt giữ hắn!</TEXT>
+    </SEARCH>
+    <ACTION>
+        <TEXT>Nghi phạm đang phớt lờ mệnh lệnh của bạn.</TEXT>
+        <TEXT>Nghi phạm đang đầu hàng.</TEXT>
+    </ACTION>
+</CALLOUT>

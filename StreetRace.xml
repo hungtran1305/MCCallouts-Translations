@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>Chiến dịch Đua Xe Ngầm Ngụy Trang</CalloutMessage>
+    <CalloutAdvisory>~s~Xem một ~y~cuộc gặp xe~s~ với ~o~có khả năng diễn ra đua xe ngầm~s~</CalloutAdvisory>
+    <Task>Lái đến ~y~cuộc gặp xe.</Task>
+
+    <Telephone>
+        <Help>Bạn có thể điều chỉnh âm lượng điện thoại bằng {J}</Help>
+        <Ring>*Điện thoại reo* - Nhấn ~y~{Y}~s~ hai lần để nhận cuộc gọi.</Ring>
+        <Dialogue>~g~Thám tử:~s~ Chào, đây là Thám tử Barker! Chúng ta có một nhiệm vụ mới.</Dialogue>
+        <Dialogue>~g~Thám tử:~s~ Sẽ có một cuộc gặp xe tại ~y~{ZONE}.</Dialogue>
+        <Dialogue>~g~Thám tử:~s~ Nhiệm vụ của bạn là đến đó ngụy trang và giả vờ là một người quan sát xe.</Dialogue>
+        <Dialogue>~g~Thám tử:~s~ Nếu có một cuộc đua xe ngầm xảy ra, bạn có thể gọi ngay lực lượng truy đuổi hoặc chờ một chút.</Dialogue>
+        <Dialogue>~g~Thám tử:~s~ Giờ hãy lái đến cuộc gặp xe. Chúc may mắn!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ Chào đối tác! Bạn đang tìm xe nhanh và đẹp đúng không?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Hãy xem chiếc ~b~{CARMODEL} của tôi!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Nếu bạn muốn ngồi vào, cứ tự nhiên, nhưng đừng lái nó quanh đây!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Chào! Một nơi tuyệt vời để gặp gỡ xe!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Mọi người ở đây cùng sở thích—đều là những người tuyệt vời!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Nhưng rồi có cảnh sát, luôn cố phá đám. Tôi không hiểu tại sao...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Nói chuyện với ~o~mọi người~s~ ở hiện trường.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Đài điều phối, không có đua xe ngầm ở đây, chúng tôi Code 4.</NoRace>
+        <Race>~o~Tài xế:~s~ Nào, ai sẵn sàng đua xe ngầm? Hãy thử vượt tôi xem!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Bạn có thể gọi ~r~lực lượng truy đuổi~s~ bất cứ lúc nào bằng ~y~{9}!</Help>
+        <Dialogue>Đài điều phối, chúng ta có một ~r~cuộc đua xe ngầm đang diễn ra~s~, gửi thêm đơn vị!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Những nghi phạm đang đầu hàng.</Surrender>
+
+    <End>Cuộc đua xe ngầm đã kết thúc.</End>
+
+</StreetRace>

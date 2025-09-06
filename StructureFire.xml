@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Cháy Công Trình~h~~s~</CalloutMessage>
+    <Task>Lái đến ~r~tòa nhà đang cháy Code 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Dập lửa tự mình ~r~hoặc gọi đội cứu hỏa!</Text>
+            <Text>Tất cả đám cháy đã được dập tắt.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Bây giờ tìm kiếm hiện trường để tìm bằng chứng liên quan đến vụ cháy. Nhấn ~y~{Y}~s~ để nhặt bằng chứng.</Text>
+            <Text>Chúng tôi đã nhận được thông tin về vị trí của bằng chứng.</Text>
+            <Text>Bạn đã tìm thấy bằng chứng.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Người gọi cung cấp vị trí gần đúng của nghi phạm có thể có liên quan.</Text>
+        </Manhunt>
+        <End>
+            <Text>Vụ Cháy Công Trình đã kết thúc.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Nhấn ~{End}~ để kết thúc nhiệm vụ.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>May mắn là không có đám cháy tại vị trí này.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>Nghi phạm dường như ~y~không ấn tượng~s~ với sự xuất hiện của bạn.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Bạn: ~r~Bắn rồi!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>Nghi phạm đang ~g~đầu hàng.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Bạn:~s~ Chúng ta có một ~o~cuộc truy đuổi!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Đám cháy đã được dập tắt~h~</Text>
+    </FireProgressBar>
+</StructureFire>

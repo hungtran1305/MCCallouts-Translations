@@ -1,0 +1,86 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Trộm Gói Hàng</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Cần sĩ quan giám sát khu vực</CALLOUTADVISORY>
+    <TASK>Đã có một vài báo cáo về trộm gói hàng tại {ZoneName}. Đi đến khu vực và luôn cảnh giác.</TASK>
+    <D_FriendlyPostman>
+        <DIALOGUE>~y~You~s~: Chào buổi chiều, thưa ông. Tôi có thể nói chuyện nhanh với ông được không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Chắc chắn rồi, sĩ quan. Có vấn đề gì sao?</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Không hẳn. Chúng tôi nhận được một vài vụ trộm gói hàng trong khu phố này. Tôi vừa thấy ông giao một gói và muốn kiểm tra mọi thứ có ổn không.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: À, tôi hiểu rồi. Tôi cũng nghe một vài hàng xóm nhắc đến chuyện lạ xảy ra.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Tôi có thể hỏi ông đang làm cho công ty chuyển phát nào và gói hàng đó giao tới địa chỉ nào không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Tôi làm cho GoPostal. Gói hàng dành cho số 123 Grove Street – chỉ là một hộp nhỏ. Tôi còn để nó trên hiên nhà và chụp hình lại.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Được rồi, nghe ổn. Chỉ kiểm tra thôi. Cảm ơn vì hợp tác.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Không có gì. An toàn hơn là để xảy ra rủi ro.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Ông có thể đi rồi. Lái xe an toàn nhé.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Vâng, cảm ơn sĩ quan đã kiểm tra. Chúc ông an toàn.</DIALOGUE>
+    </D_FriendlyPostman>
+    <D_AnnoyedPostman>
+        <DIALOGUE>~y~You~s~: Chào ông. Tôi cần một chút thời gian của ông, được chứ?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Ý tôi là… vâng, tôi đoán vậy. Chuyện gì vậy?</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Chúng tôi nhận được vài báo cáo về những người giao hàng giả lấy trộm gói hàng trong khu vực này. Chỉ muốn xác nhận việc giao hàng của ông thôi.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Ông đang đùa tôi chứ. Tôi còn 40 điểm dừng nữa cơ mà.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Tôi hiểu. Tôi chỉ cần xác nhận ông đã giao gói hàng gần đây ở đâu và ông làm cho công ty nào.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Là số 119 Grove Street. Hộp nhỏ, ghi "J. Ramirez" trên phiếu. Tôi để nó gần cửa.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Hiểu rồi. Ông có thẻ hoặc giấy tờ tùy thân để tôi xem nhanh không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Có, đợi một chút. *[đưa thẻ]* Đây ạ.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Cảm ơn. Mọi thứ hợp lệ. Cảm ơn thời gian của ông.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Được rồi. Tôi có thể đi không?</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Ông được đi rồi. Xin lỗi vì làm mất thời gian.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Lần sau có lẽ gọi trước đi…</DIALOGUE>
+    </D_AnnoyedPostman>
+    <D_SuspectTalk>
+        <DIALOGUE>~y~You~s~: Chào buổi chiều. Tôi thấy ông rời một tài sản phía sau—ông có thể nói tôi biết đang làm gì không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Chỉ giao một gói hàng thôi, sĩ quan. Tôi đang trên tuyến đường của mình.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Thật lạ, chúng tôi vừa nhận vài báo cáo về gói hàng bị mất gần đây. Ông có thể cho biết địa chỉ không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: À… 142 Grove Street, tôi nghĩ vậy? Tôi chỉ làm theo lệnh.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Ngôi nhà đó đã không có giao hàng trong vài tuần. Tôi có thể xem giấy tờ xác nhận không?</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Tôi… tôi nghĩ mình để thẻ ở kho rồi. Nhìn này, chỉ là việc nhỏ thôi.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Nghe giống như trộm hơn. Ông cần ra khỏi xe.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Được rồi, được rồi. Không cần làm ầm ĩ. Tôi sẽ hợp tác.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Tốt hơn. Ông đi cùng tôi.</DIALOGUE>
+    </D_SuspectTalk>
+    <D_SuspectPursuit>
+    <DIALOGUE>~y~You~s~: Dừng xe và bước ra ngoài. Tôi có vài câu hỏi với bạn.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Tôi nghĩ không cần thiết. Tôi chỉ đang làm công việc của mình, sĩ quan.</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Bạn trùng với mô tả của một nghi phạm trong nhiều vụ trộm. Tắt máy ngay.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Ừ… hôm nay thì không!</DIALOGUE>
+    </D_SuspectPursuit>
+    <D_SuspectShooting>
+        <DIALOGUE>~y~You~s~: Được rồi, ra khỏi xe—giơ tay lên để tôi thấy.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Đừng tiến lại gần, tôi thề với Chúa!</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Bạn đang giả dạng người giao hàng và trộm gói hàng. Hết đường rồi!</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Các cảnh sát nghĩ họ kiểm soát được tất cả!</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Bỏ vũ khí ngay!</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Không đời nào!</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Cảnh báo cuối cùng!</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Tôi sẽ không vào tù đâu!</DIALOGUE>
+    </D_SuspectShooting>
+    <D_SuspectSurrender>
+        <DIALOGUE>~y~You~s~: Ra khỏi xe ngay và giơ tay lên để thấy!</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Được rồi, được rồi! Đừng bắn!</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Quỳ xuống ngay bây giờ!</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Được rồi! Tôi đầu hàng!</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Bạn bị bắt vì trộm gói hàng và giả danh người giao hàng.</DIALOGUE>
+        <DIALOGUE>~o~Postman~s~: Tôi không ngờ chuyện này lại đi quá xa…</DIALOGUE>
+        <DIALOGUE>~y~You~s~: Bạn sẽ có cơ hội giải thích tại trạm.</DIALOGUE>
+    </D_SuspectSurrender>
+    <SCENARIOS>
+        <THIEF>
+            <TEXT>Giữ mắt trên khu vực. Sẽ có một lần giao hàng sắp tới.</TEXT>
+            <TEXT>Thực hiện dừng xe để nói chuyện với người lái.</TEXT>
+            <TEXT>Nhấn ~y~{Y}~s~ để nói chuyện với người lái.</TEXT>
+        </THIEF>
+        <POSTMAN>
+            <TEXT>Giữ mắt trên khu vực. Sẽ có một lần giao hàng sắp tới.</TEXT>
+            <TEXT>Thực hiện dừng xe để nói chuyện với người lái.</TEXT>
+            <TEXT>Nhấn ~y~{Y}~s~ để nói chuyện với người lái.</TEXT>
+            <TEXT>~g~Giao hàng có vẻ hợp pháp. Không cần thực hiện thêm hành động nào.</TEXT>
+        </POSTMAN>
+    </SCENARIOS>
+<END>
+    <TEXT>Cuộc điều tra trộm gói hàng đã kết thúc. Tiếp tục tuần tra.</TEXT>
+    <TEXT>Có vẻ xong rồi. Tiếp tục tuần tra.</TEXT>
+    <TEXT>Không còn việc gì ở đây. Quay trở lại tuần tra.</TEXT>
+    <TEXT>~r~Người giao hàng đã chết</TEXT>
+    </END>
+</CALLOUT>

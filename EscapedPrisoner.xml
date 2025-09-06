@@ -1,0 +1,67 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Tù nhân bỏ trốn</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Xe buýt nhà tù gặp nạn tại {Zone}, một tù nhân đã bỏ trốn</CALLOUTADVISORY>
+    <TASK>Một tù nhân vừa mới bỏ trốn. Lái xe đến khu vực được báo cáo cuối cùng.</TASK>
+    <DIALOGUE0>
+        <DIALOGUE>~y~Bạn:~s~ Xin chào, chuyện gì đã xảy ra ở đây?</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Chào! Tôi bị tấn công! Tù nhân—hắn đột nhiên nổi điên!</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Hắn tấn công tôi khi tôi đang quan sát giao thông. Tôi vô tình làm lật xe buýt, rồi hắn nhảy ra ngoài.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Hắn đang đi bộ, chạy vào rừng mặc bộ jumpsuit màu cam!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Anh có biết hắn có thể đi hướng nào không?</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Lần cuối tôi thấy, hắn chạy về phía bắc, qua sườn đồi đó.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Hắn có thể định trộm xe hoặc tìm nơi ẩn náu.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Cẩn thận—hắn nguy hiểm và tuyệt vọng!</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Ôi trời, hắn còn lấy cả súng của tôi nữa! Tôi không tìm thấy!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Được rồi. Tôi sẽ tìm hắn.</DIALOGUE>
+    </DIALOGUE0>
+    <DIALOGUE1>
+        <DIALOGUE>~y~Bạn:~s~ Thưa ông, ông ổn chứ? Chuyện gì đang xảy ra?</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Tù nhân đó phát điên! Hắn tấn công tôi bất ngờ!</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Tôi đang kiểm tra hướng dẫn trên máy tính bảng, và hắn lợi dụng thời cơ áp đảo tôi. Xe buýt lật khi tôi cố ngăn hắn.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Hắn bỏ chạy ngay khi chúng tôi gặp nạn—chạy thẳng vào rừng với bộ đồ cam.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Hướng nào hắn chạy?</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Hướng Bắc, qua đồi đó. Hắn chạy rất nhanh nữa!</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Nếu hắn tìm được xe hoặc nơi ẩn náu, chúng ta có thể mất dấu.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Cẩn thận, sĩ quan—hắn không suy nghĩ thẳng thắn đâu.</DIALOGUE>
+        <DIALOGUE>~o~Nhân viên nhà tù:~s~ Chết tiệt, tôi vừa nhận ra… hắn lấy cả súng của tôi!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Hiểu rồi. Tôi sẽ đi theo hắn ngay.</DIALOGUE>
+    </DIALOGUE1>
+    <DIALOGUE2>
+        <DIALOGUE>~y~You:~s~ Chuyện gì đã xảy ra? Ông có bị thương không?</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Không bị thương nặng, nhưng khá gần. Tù nhân đó lộn xe—hắn tấn công tôi bất ngờ!</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Tôi mất kiểm soát xe vận chuyển trong lúc giằng co. Hắn mở cửa cưỡng bức và bỏ chạy.</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Lần cuối tôi thấy hắn, hắn chạy về phía rừng cây. Vẫn mặc jumpsuit màu cam.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Có manh mối nào về hướng đi của hắn không?</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Có thể hắn đang cố đi đến đường chính hoặc tìm chỗ trốn gần đó.</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Hắn khó đoán và có lẽ đang có vũ khí.</DIALOGUE>
+        <DIALOGUE>~o~Prison Guard:~s~ Chết tiệt… khẩu súng của tôi biến mất. Hắn chắc đã lấy trong lúc hỗn loạn!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Hiểu rồi. Tôi sẽ truy tìm hắn.</DIALOGUE>
+    </DIALOGUE2>
+    <SEARCH>
+        <TEXT>Mô tả nghi phạm:~n~</TEXT>
+        <TEXT>~r~Tên:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~Tuổi:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Giới tính:~s~ {Gender}</TEXT>
+        <TEXT>Nhấn ~{Y}~ bất cứ lúc nào để xem lại thông tin.</TEXT>
+        <TEXT>Nói chuyện với Nhân viên nhà tù bằng ~{Y}~</TEXT>
+    </SEARCH>
+    <ATTEMPTEDROBBERY>
+        <TEXT>Chúng tôi nhận được báo cáo về một vụ cướp gần đây! Phản hồi Mã 3!</TEXT>
+        <TEXT>"~g~Nạn nhân:~s~ Cảnh sát ơi, kẻ cướp vừa bỏ chạy! Hắn mặc bộ đồ màu cam!!"</TEXT>
+        <TEXT>"~g~Nạn nhân:~s~ Cứu với! Gã đó vừa trốn khỏi sự giám sát! Hắn mặc jumpsuit màu cam!"</TEXT>
+        <TEXT>"~g~Nạn nhân:~s~ Cảnh sát ơi! Tôi thấy hắn chạy—mặc đồng phục nhà tù màu cam, hướng về đó!"</TEXT>
+    </ATTEMPTEDROBBERY>
+    <AUTOSTEHLEN>Báo cáo trộm xe! Phản hồi Mã 3!</AUTOSTEHLEN>
+    <END> <!--Giữ khoảng trắng ở cuối mỗi phần tử-->
+        <TEXT>Nghi phạm đã bị đưa vào tù! </TEXT>
+        <TEXT>Nghi phạm đã chết. </TEXT>
+        <TEXT>~g~Quay lại tuần tra.</TEXT>
+    </END>
+    <ACTION>
+        <DIALOGUE>~r~Nghi phạm:~s~ Đừng bắn! Tôi đầu hàng!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Cố bắt tao đi, mấy thằng khốn!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Muốn đánh nhau à?! Thôi nào!!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Bắn tao đi mấy thằng ngốc!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Tao sẽ giết hết tụi mày, mấy con heo!</DIALOGUE>
+    </ACTION>
+</CALLOUT>

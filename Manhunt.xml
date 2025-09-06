@@ -1,0 +1,25 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~Truy Nã</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Một tội phạm đang bị truy nã lần cuối được thấy tại {ZoneName}</CALLOUTADVISORY>
+    <TASK>Đi đến khu vực rào chắn. Các sĩ quan đã phong tỏa khu vực.</TASK>
+    <WARRANTS>
+        <TEXT>Giết người</TEXT>
+        <TEXT>Tấn công</TEXT>
+        <TEXT>Vắng mặt tại phiên tòa</TEXT>
+        <TEXT>Lái xe liều lĩnh</TEXT>
+    </WARRANTS>
+    <BACKUP>
+        <TEXT>~b~Nhấn ~y~{Y}~b~ trong 10 giây tới để yêu cầu hỗ trợ. Họ sẽ giúp tìm kiếm.</TEXT>
+        <TEXT>~b~Hỗ trợ đang trên đường và sẽ giúp tìm nghi phạm.</TEXT>
+        <TEXT>Đã hiểu. Không gửi hỗ trợ.</TEXT>
+    </BACKUP>
+    <SEARCH>
+        <TEXT>Chúng tôi đang tìm ~r~{Name}~s~, đang bị truy nã vì ~r~{Warrant}.</TEXT> 
+        <TEXT>Cần trợ giúp? Nhấn ~{9}~ để định vị ~r~nghi phạm!</TEXT>
+        <TEXT>~r~Nghi phạm~s~ đã được tìm thấy! Bắt hắn!</TEXT>
+    </SEARCH>
+    <END>
+        <TEXT>{CalloutMessage} đã kết thúc.~n~</TEXT>
+        <TEXT>~g~Nghi phạm ~r~{Name}~g~ đã bị bắt.~n~</TEXT>
+    </END>
+</CALLOUT>

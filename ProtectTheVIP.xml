@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>Bảo Vệ VIP</CalloutMessage>
+    <CalloutAdvisory>Bảo vệ họ khỏi các thành viên băng đảng!</CalloutAdvisory>
+    <Task>Lái đến ~g~VIP.</Task>
+    <VIP>
+        <Dialogue>Chào! Cảm ơn bạn vì nhiệm vụ này, tôi đang bị một băng đảng nhắm đến.</Dialogue>
+        <Dialogue>Tôi đã nhận nhiều lời đe dọa trực tuyến về mạng sống của mình. Tôi cần được bảo vệ.</Dialogue>
+        <Dialogue>Tôi là chủ doanh nghiệp của ~HC_17~Rusty Brown's Ring Donuts.</Dialogue>
+        <Dialogue>Ôi không, họ ở đó kìa!</Dialogue>
+        <Task>Nhấn ~o~{Y}~s~ - VIP ~o~di chuyển~s~ tới vị trí hiện tại của bạn</Task>
+        <Task>Nhấn ~g~{J}:~s~ - bật/tắt nếu VIP ~g~theo~s~ bạn</Task>
+        <Task>Điều khiển VIP</Task>
+        <Task>Hành động</Task>
+        <Dead>~r~VIP đã chết</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Độ khó</Title>
+        <Easy>Dễ</Easy>
+        <Medium>Trung bình</Medium>
+        <Hard>Khó</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~Bạn:~s~ Di chuyển ngay chỗ này!</Dialogue>
+        <Dialogue>Theo tôi!</Dialogue>
+        <Dialogue>Ở ngay chỗ này!</Dialogue>
+    </FightGang>
+
+    <End>~b~Bảo Vệ VIP đã kết thúc.</End>
+</ProtectTheVIP>

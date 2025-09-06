@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~Giải Quyết Vụ Án 4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Phát hiện một thi thể cạnh một ngôi nhà nông trại ở North Yankton</CALLOUTADVISORY>
+    <TASK>Lái đến ~b~hiện trường, cảnh sát~s~ đang chờ bạn.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Cảnh sát:~s~ Chào mừng đến với North Yankton lạnh giá và đầy tuyết!</DIALOGUE>
+            <DIALOGUE>~b~Cảnh sát:~s~ Thật không may, chúng tôi có một thi thể ở đó. Chúng tôi chưa biết nhiều, nên bạn có thể tìm kiếm hiện trường trước.</DIALOGUE>
+            <DIALOGUE>~b~Cảnh sát:~s~ Sau đó chúng tôi có ba nghi phạm khả nghi. Bạn sẽ phải lái xuống đường để nói chuyện với họ.</DIALOGUE>
+            <DIALOGUE>~b~Cảnh sát:~s~ Cũng có một hàng xóm nói rằng ông ấy chứng kiến điều gì đó...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Cảnh sát:~s~ Nói cho tôi biết, theo bạn ai là kẻ giết người?</DIALOGUE>
+            <DIALOGUE>~b~Cảnh sát:~s~ Bắt ~r~kẻ giết người!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, tôi có vài câu hỏi. Ông là nghi phạm trong một vụ án mạng gần đây. Tên ông là gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Một vụ án mạng? Thật kinh khủng! Tôi tên là James Walker, bạn có thể gọi tôi là Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, và tôi tự hào về điều đó.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi là thợ cơ khí, làm việc với xe cộ.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có uống rượu không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không nhiều, thỉnh thoảng tôi uống một lon bia.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có sở hữu súng không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, tôi không có.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có đeo đồng hồ không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, tôi có nhiều đồng hồ, tôi cần chúng cho công việc.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông ở đâu khi nạn nhân chết?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi nói chuyện với một khách hàng về xe hỏng của anh ấy, tôi nói rằng không thể sửa được.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, ông bị nghi ngờ đã giết người. Tôi có vài câu hỏi. Trước tiên, cho tôi biết tên ông.</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi không làm gì cả! Tôi tên James Walker, bạn bè gọi tôi là Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, và tôi tự hào về điều đó.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi là thợ cơ khí, làm việc với xe cộ.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có uống rượu không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không nhiều, thỉnh thoảng tôi uống một lon bia.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có sở hữu súng không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, tôi không có.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có đeo đồng hồ không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, lúc này tôi... ôi, tôi đã làm mất nó.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông ở đâu khi nạn nhân chết?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi... ở trong gara sửa xe. Tôi là người cuối cùng ra về.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Vào buổi tối?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, tôi có nhiều việc phải làm.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~Bạn:~s~ Chào bà, bà bị nghi ngờ đã giết người. Tôi có vài câu hỏi. Tên bà là gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Chết tiệt, một vụ án mạng? Tôi? Tôi không làm gì. Tôi tên Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, thỉnh thoảng. Bà đã từng hút cần sa chưa?</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ ...Bà làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi làm việc ở một văn phòng trong thị trấn.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà có uống rượu không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, thật không may nhiều, thỉnh thoảng whisky, thỉnh thoảng champagne.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà có súng không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi không thích súng, nên không có.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà có đeo đồng hồ không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi có một cái, nhưng tôi không bao giờ đeo. Sao bạn hỏi?</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà ở đâu khi nạn nhân chết?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi đi chơi với một người bạn, bạn có thể hỏi cô ấy.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~Bạn:~s~ Chào bà, bà bị nghi ngờ đã giết người. Tôi có vài câu hỏi. Tên bà là gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Chết tiệt, một vụ án mạng? Tôi? Tôi không làm gì. Tôi tên Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bà có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có, thỉnh thoảng tôi hút. Bà đã từng hút cần sa chưa?</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ ...Bà làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi làm việc ở một văn phòng trong thị trấn.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yeah, unfortunately a lot, sometimes whiskey, sometimes champagner.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I don't like guns, so no.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I have one, but I never wear it. Why do you ask?</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I was out partying in a club, I drank a lot of wine.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, tôi có vài câu hỏi. Ông là nghi phạm khả nghi trong một vụ án mạng gần đây. Tên ông là gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Chết tiệt, một vụ án mạng? Tôi? Tôi không làm gì cả. Tôi tên Daniel hoặc Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Như ông biết, tôi là thợ săn và ông có nhiều thời gian, nên có, tôi có hút.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Như tôi đã nói, tôi là thợ săn.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có uống rượu thường xuyên không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, không thường xuyên, nhưng tôi đã từng uống rượu trước đây.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có mang súng không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Hiện tại không, nhưng với nghề thợ săn thì bạn có thể tưởng tượng tôi có vài khẩu.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có đồng hồ nào không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi có một cái, loại rẻ, nếu hỏng tôi có thể mua cái khác.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông ở đâu khi nạn nhân chết?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi ở nhà với vợ, chúng tôi đang dùng bữa tối.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, tôi có vài câu hỏi. Ông là nghi phạm khả nghi trong một vụ án mạng gần đây. Tên ông là gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Chết tiệt, một vụ án mạng? Tôi? Tôi không làm gì cả. Tôi tên Daniel hoặc Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có hút thuốc không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Như ông biết, tôi là thợ săn và ông có nhiều thời gian, nên có, tôi có hút.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông làm nghề gì?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Như tôi đã nói, tôi là thợ săn.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có uống rượu thường xuyên không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Không, không thường xuyên, nhưng tôi đã từng uống rượu trước đây.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có mang súng không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Có… tôi nghĩ tôi để trong xe, không tìm thấy.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông có đồng hồ nào không?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Thường tôi mang một cái, nhưng không tìm thấy, may mà nó không đắt.</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Ông ở đâu khi nạn nhân chết?</DIALOGUE>
+            <DIALOGUE>~y~Nghi phạm:~s~ Tôi ra rừng săn bắn, tiếc là không bắt được gì.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, đối tác tôi nói ông đã chứng kiến một sự việc?</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Chào bạn, đúng vậy, tôi muốn báo cáo những gì tôi thấy.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi nghe nói có một vụ án mạng vào thời điểm tôi lái xe qua.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi thấy một chiếc xe lái khỏi hiện trường; lúc đó không có nhiều xe cộ.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Nó trông như xe công ty; là một chiếc van lớn.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Hy vọng điều này có ích!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, đối tác tôi nói ông đã chứng kiến một sự việc?</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Chào bạn, đúng vậy, tôi muốn báo cáo những gì tôi thấy.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi nghe nói có một người chết được tìm thấy ngoài thị trấn.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi thấy một người đi ra khỏi khu vực này, cầm vật gì đó trên tay.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Nó đang bốc khói; tôi đoán là một điếu xì gà.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Xin lỗi, đó là tất cả những gì tôi biết!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~Bạn:~s~ Chào ông, đối tác tôi nói ông đã chứng kiến một sự việc?</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Chào buổi tối, tôi nghĩ mình là nhân chứng.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi nghe nói có một vụ án mạng vào thời điểm tôi lái xe qua khu vực.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Tôi thấy một chiếc xe lái khỏi hiện trường; lúc đó không có nhiều xe cộ.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Chiếc xe rất bẩn, và có bánh to.</DIALOGUE>
+            <DIALOGUE>~g~Hàng xóm:~s~ Hy vọng tôi đã giúp được!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Tìm kiếm bằng chứng trên đường phố.</TEXT>
+            <TEXT>Đã tìm thấy bằng chứng!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Nói chuyện với ~y~nghi phạm~s~ và ~g~nhân chứng.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Bắt đúng kẻ giết người</TEXT>
+            <TEXT>~r~Bắt nhầm người</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} đã kết thúc.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Kẻ giết người</TITLE>
+        <SUBTITLE>Kẻ giết người là...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, thợ cơ khí ô tô</ITEM>
+        <ITEM>Lisa Carter, người phụ nữ</ITEM>
+        <ITEM>Daniel 'Danny' Reed, thợ săn</ITEM>
+        <DIALOGUE>~y~Bạn:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>

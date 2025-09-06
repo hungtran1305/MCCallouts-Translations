@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Chiến dịch Công Lý Nhiệt Đới</CalloutMessage>
+    <CalloutAdvisory>~s~Một ~r~trùm băng đảng nguy hiểm~s~ đã cố thủ trong một khu nhà kiên cố ở ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Lái đến ~g~sân bay.</Task>
+
+    <Detective>
+        <Help>Nói chuyện với ~g~Thám tử~s~ bằng {Y}</Help>
+        <Dialogue>Chào ngày mới! Chúng ta có một nhiệm vụ quan trọng — nó có tên là ~g~Chiến dịch Công Lý Nhiệt Đới!</Dialogue>
+        <Dialogue>Bạn sẽ bay tới ~g~Cayo Perico~s~, nơi ~r~Trùm Mafia~s~ đang lẩn trốn.</Dialogue>
+        <Dialogue>Sau khi hạ cánh, bạn sẽ cần lái một quãng cho đến khi tới ~y~khu nhà~s~ của hắn.</Dialogue>
+        <Dialogue>Tìm hắn cẩn thận, nhưng hãy cảnh giác — có ~r~vệ sĩ có vũ trang~s~!</Dialogue>
+        <Dialogue>Bắt ~r~trùm~s~, sau đó bay về ~o~Los Santos~s~ và bỏ hắn vào tù.</Dialogue>
+        <Dialogue>Tôi khuyên bạn nên mặc ~b~áo giáp~s~ và mang theo một ~p~súng trường~s~ đáng tin cậy. Chúc may mắn!</Dialogue>
+        <Help>Lên ~o~máy bay~s~ hoặc ~o~trực thăng~s~ – tùy bạn chọn!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Bay tới ~o~đích đến~s~ được đánh dấu trên GPS. Bạn có thể ~y~bỏ qua chuyến bay~s~ bằng {J}</Text>
+        <Text>Lên ~HC_10~xe cảnh sát không đánh dấu.</Text>
+        <Text>Lái đến ~y~khu nhà.</Text>
+        <Text>Tìm ~r~trùm mafia~s~! Hãy cẩn thận, có ~r~vệ sĩ có vũ trang!</Text>
+        <Text>Bạn đã tìm thấy ~r~trùm~s~, bắt hắn!</Text>
+        <Text>Đưa ~r~trùm~s~ lên xe và lái trở về sân bay.</Text>
+        <Text>Bạn có thể đưa nghi phạm vào tù hoặc kết thúc nhiệm vụ.</Text>
+        <Text>Nhấn {End} để ~r~kết thúc chiến dịch.</Text>
+        <Text>Chiến dịch Công Lý Nhiệt Đới đã kết thúc.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Nhiệm vụ hoàn thành</Text>
+        <Text>~r~Nhiệm vụ thất bại</Text>
+    </Mission>
+
+    <Warper>Nhấn {J} để vào/ra ~y~khu nhà</Warper>
+
+</TropicalJustice>

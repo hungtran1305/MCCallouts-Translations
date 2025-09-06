@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Tai Nạn Giao Thông</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Phản ứng Mã 3</CALLOUTADVISORY>
+    <TASK>Đi đến ~r~hiện trường tai nạn.~s~ Đảm bảo điều tiết giao thông và kiểm tra tình trạng tài xế.</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>Nhấn ~{Y}~ để nói chuyện.</TEXT>
+            <DIALOGUE>~y~Bạn:~s~ Chào? Bạn cần gì?</DIALOGUE>
+            <DIALOGUE>~p~Tài xế:~s~ Tôi... bị... thương.. Tôi cần một... xe cứu thương. Giúp tôi.</DIALOGUE>
+            <TEXT>Gọi xe cứu thương cho người bị thương.</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~Bạn:~s~ Bạn có thể kể chuyện gì đã xảy ra không?</DIALOGUE>
+            <DIALOGUE>~o~Tài xế:~s~ Tôi không nhớ rõ lắm. *ợ hơi*</DIALOGUE>
+            <DIALOGUE>~y~Bạn:~s~ Bạn vừa đi đâu về?</DIALOGUE>
+            <DIALOGUE>~o~Tài xế:~s~ Từ một bữa tiệc bạn bè. Tôi có thể làm bài kiểm tra nồng độ cồn, tôi hoàn toàn tỉnh táo.</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>Nhấn ~{Y}~ để nhặt vũ khí.</TEXT>
+            <TEXT>Nhấn ~y~{Y}~s~ để yêu cầu kiểm tra số sê-ri từ Đài chỉ huy.</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~Bạn:~s~ Đài chỉ huy, tôi có thể kiểm tra số sê-ri của khẩu súng lục, nó là ~r~{serialnumber}~s~ không?</DIALOGUE>
+                <DIALOGUE>10-4, đang kiểm tra.</DIALOGUE>
+                <DIALOGUE>Vũ khí: Súng lục</DIALOGUE>
+                <DIALOGUE>~b~Chủ sở hữu: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Cảnh báo: Chủ sở hữu có lệnh truy nã</DIALOGUE>
+                <DIALOGUE>Chú ý: Chúng tôi nhận được cuộc gọi về một người khả nghi gần đây, vui lòng phản ứng ~r~Mã 3.</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

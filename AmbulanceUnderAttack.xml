@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Cứu Thương Bị Tấn Công</CALLOUTMESSAGE>
+    <TASK>Một xe cứu thương yêu cầu trợ giúp khẩn cấp, hãy kiểm tra tình hình.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~Bạn:~s~ Chuyện gì đã xảy ra?</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chúng tôi đang trên đường về bệnh viện thì họ bất ngờ chặn chúng tôi lại.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Sau đó họ tấn công chúng tôi mà không có lý do!</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Cảm ơn vì sự hỗ trợ của bạn!</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chúng tôi sẽ quay về trạm, chúc bạn một ngày tốt lành!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>Nhấn ~y~{Y}~s~ để khiến họ ngừng đánh nhau!</TEXT>
+        <TEXT>Nói chuyện với nhân viên y tế để tìm hiểu chuyện gì đã xảy ra.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~Bạn:~s~ Cảnh sát! Ngừng đánh nhau và lùi ra!</TEXT>
+        <TEXT>~y~Bạn:~s~ Mọi người dừng lại! Đây là cảnh sát!</TEXT>
+    </WARN>
+    <END>Cứu Thương Bị Tấn Công đã kết thúc.</END>
+</CALLOUT>

@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Tấn công</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Một người bị thương, cảnh sát và EMS có mặt tại hiện trường</CALLOUTADVISORY>
+    <TASK>Một cảnh sát báo cáo về một vụ tấn công. EMS đã có mặt tại hiện trường. Lái xe đến vị trí được báo cáo.</TASK>
+    <NOTIFICATIONS>
+        <TEXT>Tìm kiếm khu vực xung quanh cho phương tiện nghi phạm.{n}~o~Phương tiện:~s~ {MODEL}{n}~o~Màu sắc:~s~ {COLOR}{n}~o~Nghi phạm:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Tìm kiếm khu vực gần đó cho nghi phạm.{n}~o~Tên:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Lệnh truy nã:~s~ Tấn công</TEXT>
+        <TEXT>Một cảnh sát đã dừng một phương tiện trùng khớp. Hỗ trợ Code 3.</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>~b~Cảnh sát:~s~ Chào đồng đội, tuyệt quá bạn đến kịp lúc!</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Chúng tôi nhận được cuộc gọi về một vụ tấn công và tôi là người đầu tiên có mặt.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Như bạn thấy, EMS đang chăm sóc nạn nhân.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Có lẽ bạn nên nói chuyện với nhân viên y tế trước để cập nhật tình trạng nạn nhân.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Nạn nhân trông không ổn, có thể anh ấy còn tỉnh và nhớ được điều gì đó.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Một nhân chứng cũng đã xuất hiện, hy vọng họ có thể cung cấp thông tin hữu ích về vụ việc.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Chúc may mắn!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chào bạn, vui vì nhận được sự hỗ trợ từ bạn - điều đó thực sự cần thiết.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chúng tôi phát hiện nhiều vết cắt và bầm tím, có thể do vật nặng gây ra.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Cái gì đó như dao, nắm đấm đồng, hay chai thủy tinh?</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Đúng vậy. Bệnh nhân bị thương nặng và bất tỉnh. Tôi đang ổn định tình trạng, rồi sẽ chuyển đến bệnh viện.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Có vẻ tôi không thể lấy thêm thông tin từ nạn nhân, để bạn làm việc của mình.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Tôi sẽ đi nói chuyện với nhân chứng tiếp theo.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>~r~Nhân viên y tế:~s~ À chào, tôi đoán đồng nghiệp của bạn đã gọi thêm hỗ trợ?</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Vui vì bạn có mặt. Nạn nhân đang ổn trong hoàn cảnh này.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Anh ấy có vết thương ở đầu, có thể do cú đấm hoặc vật nhẹ gây ra.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Vết thương cần khâu, tôi sẽ đưa anh ấy đến bệnh viện ngay.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Tốt nhất bạn nên hỏi bây giờ khi trí nhớ còn tươi.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>~o~Nạn nhân:~s~ Chào cảnh sát, làm ơn hãy tìm thằng khốn đã làm chuyện này!</DIALOGUE>
+        <DIALOGUE>~o~Nạn nhân:~s~ Tôi đang đi dạo, chỉ muốn mua gì đó thôi.</DIALOGUE>
+        <DIALOGUE>~o~Nạn nhân:~s~ Đột nhiên, {FIRSTNAME} {LASTNAME} xuất hiện - tôi biết hắn từ quán bar.</DIALOGUE>
+        <DIALOGUE>~o~Nạn nhân:~s~ Hắn bắt đầu lải nhải với tôi rồi đánh tôi - tôi không nhớ nhiều sau đó.</DIALOGUE>
+        <DIALOGUE>~o~Nạn nhân:~s~ Thật không may, tôi không thấy họ đi đâu. Ôi, đầu tôi… đau quá. Chết tiệt!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Không sao, cứ nghỉ ngơi trước đi. Chúng tôi sẽ ghi lại lời khai của bạn và bắt đầu truy tìm ngay lập tức.</DIALOGUE>
+        <DIALOGUE>~o~Nạn nhân:~s~ Tìm {FIRSTNAME} {LASTNAME}, {GENDER}! Họ đã làm chuyện này!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>~g~Nhân chứng:~s~ Chào cảnh sát, tuyệt quá bạn đến rồi. Hy vọng tôi có thể giúp nhận diện kẻ tấn công.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi thấy họ cãi nhau, rồi đột nhiên một người đẩy người kia và bắt đầu đánh!</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Khá tàn bạo nếu bạn hỏi tôi! Không ngạc nhiên là phải có xe cứu thương đến.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi nghe một người nói tên nghi phạm: {LASTNAME}. Người đó là {GENDER}.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Thật buồn khi bạo lực ngày càng gia tăng.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Cảm ơn, thông tin này rất hữu ích.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn có thấy nghi phạm đi đâu không?</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Họ chạy đi bộ. Tôi có thể đánh dấu trên GPS của bạn nếu muốn!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Cảm ơn lần nữa, chúng tôi sẽ cố gắng hết sức để bắt họ!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>~y~Bạn:~s~ Xin chào, tôi là cảnh sát từ sở cảnh sát địa phương. Bạn có thể kể chuyện gì đã xảy ra không?</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Chào, vâng - tôi nghĩ tôi đã thấy ai đó rời hiện trường.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi nghe thấy một cuộc cãi nhau và đi về phía âm thanh.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi chỉ thấy một người đang chảy máu trên mặt đất, và một người khác đi nhanh khỏi hiện trường.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Họ chạy đi theo hướng đó!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn có thể mô tả người đó không?</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Thật tiếc không, tôi chỉ nhìn thấy từ xa và ở lại với người bị thương.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn đã làm đúng, cảm ơn - bạn có thể thấy họ bị thương nặng đến mức nào.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Chúng tôi sẽ bắt đầu tìm kiếm gần hiện trường ngay lập tức.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Chúc may mắn! Bắt thằng khốn đó đi!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>~y~Bạn:~s~ Chào bạn, tôi là cảnh sát từ sở cảnh sát địa phương.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Chào, tôi muốn giúp bắt nghi phạm.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi biết họ, họ cũng sống trong thị trấn.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tên họ là {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Họ cầm một vật gì đó khi đánh nhau - tôi không xác định rõ là gì.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Kẻ khốn đó đánh nạn nhân vài lần, rồi lái đi bằng {MODEL}!</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Màu xe là {COLOR}.</DIALOGUE>
+        <DIALOGUE>~g~Nhân chứng:~s~ Tôi đã ghi biển số... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Cảm ơn rất nhiều! Tôi sẽ để ý xe. Chúc bạn một ngày tốt lành!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>~b~Cảnh sát:~s~ Này đồng đội! Tôi đã chặn xe này, xe trùng với mô tả.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Tôi thật sự cần backup, đó là lý do tôi gọi bạn.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Tôi sẽ đứng bên ghế hành khách - tôi hỗ trợ bạn nếu họ làm trò gì ngu ngốc.</DIALOGUE>
+        <DIALOGUE>~b~Cảnh sát:~s~ Kiểm tra lại thông tin xe để chắc chắn đi.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>~y~Bạn:~s~ Dừng lại đó! Cảnh sát đây!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Ôi Chúa ơi, bạn làm tôi giật mình. Bạn muốn gì?</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn là nghi phạm trong một vụ án hình sự. Trước đó bạn ở đâu?</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Tôi... chuyện này về vụ đánh nhau à? Thôi mà, không có gì to tát đâu.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Chỉ để bạn biết, nạn nhân đang được đưa đến bệnh viện! Họ bị thương nặng!</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Ôi không... Tôi không muốn chuyện đó xảy ra. Chết tiệt, tôi xin lỗi...</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Giơ tay lên cho tôi thấy! Bạn bị bắt rồi!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>~y~Bạn:~s~ Cảnh sát! Làm ơn đi cùng tôi, tôi có vài câu hỏi.</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Bạn muốn gì từ tôi? Buông tôi ra!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Nghe này, chúng ta có thể làm chuyện này dễ dàng hoặc khó khăn.</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Bạn không thể chứng minh gì cả. Tôi chẳng làm gì đâu! Hoàn toàn không!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn trùng với mô tả của nghi phạm. Một giờ trước bạn ở đâu?</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Tôi... ở thư viện, đúng vậy! Tôi đọc sách và tận hưởng sự yên tĩnh tránh xa mấy ông cảnh sát bạn ạ!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>~y~Bạn:~s~ Chào, tôi là cảnh sát giao thông từ sở địa phương. Xin xuất trình giấy phép lái xe và giấy tờ xe.</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Có lý do gì cho việc dừng xe này không? Tất cả giấy tờ của tôi đều hợp lệ!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn vừa đi đâu về?</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Tôi chỉ đi mua sắm vài thứ nhỏ, sao vậy?</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Gần đây bạn có cãi nhau với ai không? Bạn bè, đồng nghiệp hay ai đó? Chúng tôi nhận được báo cáo.</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Có, tôi có cãi nhau chút thôi, chỉ lời qua tiếng lại, đẩy nhẹ nhau một chút.</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Bạn có làm gì hơn việc đẩy không? Một nhân chứng báo cáo khác đi.</DIALOGUE>
+        <DIALOGUE>~r~Nghi phạm:~s~ Tôi không hiểu bạn nói gì!! Thôi thì bắt tôi đi!</DIALOGUE>
+    </DIALOGUES>
+    <END>
+		<TEXT>Điều phối, báo Code 4. Quay lại tuần tra.</TEXT>
+        <TEXT>Chúng tôi Code 4 đây. Điều phối, không cần hỗ trợ thêm.</TEXT>
+    </END>
+</CALLOUT>

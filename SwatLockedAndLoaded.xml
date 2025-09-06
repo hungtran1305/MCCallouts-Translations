@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Sẵn Sàng Chiến Đấu</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Cần một đội SWAT để dọn dẹp tòa nhà!</CALLOUTADVISORY>
+    <TASKS>
+        <TEXT>Đi đến ~o~vị trí.</TEXT>
+        <TEXT>Vào và dọn dẹp tòa nhà, ~r~nhiều nghi phạm có vũ trang đã cố thủ. ~b~Có đồng đội hỗ trợ sẽ giúp ích!</TEXT>
+        <TEXT>Nhấn ~{J}~ để vào/ra</TEXT>
+    </TASKS>
+    <SUCCESS>
+        <TEXT>~g~Tất cả mối đe dọa đã bị vô hiệu hóa!</TEXT>
+        <TEXT>Nhấn ~{End}~ để kết thúc callout.</TEXT>
+    </SUCCESS>
+    <STATS>
+        <TEXT>Đã vô hiệu hóa:</TEXT>
+        <TEXT>Đã bắt:</TEXT>
+        <TEXT>~g~Nhiệm vụ hoàn thành~n~</TEXT>
+        <TEXT>~r~Nhiệm vụ thất bại~n~</TEXT>
+        <TEXT>Còn mối đe dọa:</TEXT>
+    </STATS>
+</CALLOUT>
