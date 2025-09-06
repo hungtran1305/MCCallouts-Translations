@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
-    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <CALLOUTMESSAGE>Cứu Thương Bị Tấn Công</CALLOUTMESSAGE>
+    <TASK>Một xe cứu thương yêu cầu trợ giúp khẩn cấp, hãy kiểm tra tình hình.</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+        <DIALOGUE>~y~Bạn:~s~ Chuyện gì đã xảy ra?</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chúng tôi đang trên đường về bệnh viện thì họ bất ngờ chặn chúng tôi lại.</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Sau đó họ tấn công chúng tôi mà không có lý do!</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Cảm ơn vì sự hỗ trợ của bạn!</DIALOGUE>
+        <DIALOGUE>~r~Nhân viên y tế:~s~ Chúng tôi sẽ quay về trạm, chúc bạn một ngày tốt lành!</DIALOGUE>
     </DIALOGUES>
     <EXTRA>
-        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
-        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+        <TEXT>Nhấn ~y~{Y}~s~ để khiến họ ngừng đánh nhau!</TEXT>
+        <TEXT>Nói chuyện với nhân viên y tế để tìm hiểu chuyện gì đã xảy ra.</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
-        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+        <TEXT>~y~Bạn:~s~ Cảnh sát! Ngừng đánh nhau và lùi ra!</TEXT>
+        <TEXT>~y~Bạn:~s~ Mọi người dừng lại! Đây là cảnh sát!</TEXT>
     </WARN>
-    <END>Ambulance under attack has ended.</END>
+    <END>Cứu Thương Bị Tấn Công đã kết thúc.</END>
 </CALLOUT>
